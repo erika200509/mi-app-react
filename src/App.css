@@ -1,6 +1,4 @@
-/* ============================================
-   🎨 PALETA PASTEL - Inspirada en tu referencia
-   ============================================ */
+
 :root {
     width: 100%;
   --pastel-lav: #e8d8ff;
@@ -54,9 +52,7 @@ body {
   color: var(--text-dark);
 }
 
-/* ============================================
-   🎨 ANIMACIONES
-   ============================================ */
+
 @keyframes fadeInBody {
   from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: translateY(0); }
@@ -78,9 +74,7 @@ body {
   66% { transform: translate(-20px, 20px) scale(0.9); }
 }
 
-/* ============================================
-   🎨 FORMAS FLOTANTES (como tu referencia)
-   ============================================ */
+
 .app-pastel {
   position: relative;
   min-height: 100vh;
@@ -138,9 +132,7 @@ body {
   animation-delay: 15s;
 }
 
-/* ============================================
-   🎨 PAGE CONTAINER
-   ============================================ */
+
 .page-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -149,9 +141,7 @@ body {
   z-index: 1;
 }
 
-/* ============================================
-   🎨 HEADER (estilo referencia)
-   ============================================ */
+
 .header-pastel {
   display: flex;
   align-items: center;
@@ -185,9 +175,7 @@ body {
   box-shadow: var(--shadow-soft);
 }
 
-/* ============================================
-   🎨 STATS MINI (inspirado en tu referencia)
-   ============================================ */
+
 .stats-mini-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -243,9 +231,7 @@ body {
   font-weight: 500;
 }
 
-/* ============================================
-   🎨 FILTROS
-   ============================================ */
+
 .filter-bar-pastel {
   display: flex;
   flex-wrap: wrap;
@@ -281,9 +267,7 @@ body {
   box-shadow: 0 4px 14px rgba(124, 77, 175, 0.3);
 }
 
-/* ============================================
-   🎨 GRID DE COMPONENTES
-   ============================================ */
+
 .components-grid-pastel {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
@@ -338,9 +322,7 @@ body {
   padding: 20px;
 }
 
-/* ============================================
-   🎨 FOOTER (como tu referencia)
-   ============================================ */
+
 .footer-pastel {
   text-align: center;
   margin-top: 40px;
@@ -371,9 +353,7 @@ body {
   backdrop-filter: blur(4px);
 }
 
-/* ============================================
-   🎨 TOAST (como tu referencia)
-   ============================================ */
+
 .toast-pastel {
   position: fixed;
   bottom: 28px;
@@ -407,9 +387,7 @@ body {
   opacity: 1;
 }
 
-/* ============================================
-   🎨 SCROLLBAR PERSONALIZADA
-   ============================================ */
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -428,9 +406,7 @@ body {
   background: linear-gradient(135deg, var(--pastel-lav-dark), var(--pastel-sky-dark));
 }
 
-/* ============================================
-   🎨 RESPONSIVE
-   ============================================ */
+
 @media (max-width: 768px) {
   .page-container {
     padding: 20px 16px 60px;
