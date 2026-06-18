@@ -31,19 +31,20 @@
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--lavender), var(--mint));
+  background: linear-gradient(135deg, #f3eeff 0%, #fde8f4 60%, #fef0e8 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 20px rgba(124,111,175,0.2);
+  box-shadow: 0 4px 20px rgba(200, 170, 240, 0.25);
   gap: 2px;
+  border: 2px solid rgba(210, 185, 245, 0.4);
 }
 
 .visor-counter-value {
   font-size: 2.75rem;
   font-weight: 700;
-  color: var(--lavender-deep);
+  color: #c5a8e8;
   line-height: 1;
 }
 
@@ -59,16 +60,17 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--lavender);
+  background: #f3eeff;
   border-radius: var(--radius-sm);
   padding: 0.6rem 1rem;
   font-size: 0.85rem;
   color: var(--text-mid);
   margin-bottom: 1.5rem;
+  border: 1px solid rgba(210, 185, 245, 0.4);
 }
 
 .visor-tab-preview strong {
-  color: var(--lavender-deep);
+  color: #c5a8e8;
 }
 
 .visor-actions {

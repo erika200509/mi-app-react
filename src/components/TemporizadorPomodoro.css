@@ -36,20 +36,20 @@
 
 .ring-track {
   fill: none;
-  stroke: var(--peach);
+  stroke: #fde8f0;
   stroke-width: 8;
 }
 
 .ring-progress {
   fill: none;
-  stroke: var(--peach-deep);
+  stroke: #f0b8d0;
   stroke-width: 8;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.9s linear;
 }
 
 .ring-done {
-  stroke: var(--mint-deep);
+  stroke: #a8d8c8;
 }
 
 .pomodoro-time {
@@ -101,10 +101,11 @@
 .pomodoro-done-banner {
   margin-top: 1.25rem;
   padding: 0.85rem 1rem;
-  background: var(--mint);
+  background: #e0f7f0;
   border-radius: var(--radius-sm);
   text-align: center;
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--mint-deep);
+  color: #7ec8b4;
+  border: 1px solid rgba(150, 210, 195, 0.4);
 }

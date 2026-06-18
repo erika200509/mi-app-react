@@ -41,7 +41,7 @@
 /* Checkbox custom */
 .config-checkbox-row {
   padding: 0.85rem;
-  background: var(--mint);
+  background: #e8f8f4; border: 1px solid rgba(150, 210, 195, 0.4);
   border-radius: var(--radius-sm);
 }
 
@@ -62,7 +62,7 @@
   flex-shrink: 0;
   width: 20px; height: 20px;
   border-radius: 5px;
-  border: 2px solid var(--mint-mid);
+  border: 2px solid #b0ddd0;
   background: var(--white);
   margin-top: 2px;
   transition: all 0.15s;
@@ -70,8 +70,8 @@
 }
 
 .config-checkbox:checked + .config-checkbox-custom {
-  background: var(--mint-deep);
-  border-color: var(--mint-deep);
+  background: #a8d8c8;
+  border-color: #a8d8c8;
 }
 
 .config-checkbox:checked + .config-checkbox-custom::after {
@@ -111,7 +111,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.65rem 1rem;
-  background: var(--lavender);
+  background: #f3eeff; border: 1px solid rgba(210,185,245,0.35);
   border-bottom: 1.5px solid var(--border);
 }
 
@@ -120,13 +120,13 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--lavender-deep);
+  color: #c5a8e8;
 }
 
 .preview-saved {
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--mint-deep);
+  color: #7ec8b4;
   animation: fadeIn 0.2s ease;
 }
 
@@ -139,7 +139,7 @@
   padding: 1rem;
   font-family: 'Courier New', monospace;
   font-size: 0.82rem;
-  color: var(--lavender-deep);
+  color: #c5a8e8;
   white-space: pre-wrap;
   word-break: break-all;
   line-height: 1.7;
