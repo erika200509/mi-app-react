@@ -1,0 +1,110 @@
+.pomodoro-card {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.pomodoro-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1.75rem;
+}
+
+.pomodoro-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.pomodoro-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-mid);
+}
+
+.pomodoro-ring-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1.75rem;
+}
+
+.pomodoro-svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.ring-track {
+  fill: none;
+  stroke: var(--peach);
+  stroke-width: 8;
+}
+
+.ring-progress {
+  fill: none;
+  stroke: var(--peach-deep);
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.9s linear;
+}
+
+.ring-done {
+  stroke: var(--mint-deep);
+}
+
+.pomodoro-time {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.pomodoro-digits {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.colon {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.pomodoro-status {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-light);
+}
+
+.pomodoro-controls {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.pomodoro-controls .btn {
+  min-width: 110px;
+  justify-content: center;
+  padding: 0.65rem 1.25rem;
+}
+
+.pomodoro-done-banner {
+  margin-top: 1.25rem;
+  padding: 0.85rem 1rem;
+  background: var(--mint);
+  border-radius: var(--radius-sm);
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--mint-deep);
+}
